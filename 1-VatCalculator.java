@@ -8,7 +8,7 @@ public class Valueaddedtax {
         no_vat = inp.nextFloat();
         with_vat = ((no_vat*18)/100f)+no_vat;
 
-        System.out.println("Product WithVat Price: "+kdvli);
-        System.out.println("Product Vat amount: "+(kdvli-kdvsiz));
+        System.out.println("Product WithVat Price: "+with_vat);
+        System.out.println("Product Vat amount: "+(with_vat-no_vat));
     }
 }
