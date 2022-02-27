@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Test {
+public class totalSum {
     public static void main(String[] args) {
         System.out.println("Numbers :");
         Scanner input = new Scanner(System.in);
