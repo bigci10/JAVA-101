@@ -2,7 +2,7 @@ import java.util.*;
 //We write a program that prints powers of 4 and 5 up to the number entered with Java loops.
 
 
-public class Solutions {
+public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
