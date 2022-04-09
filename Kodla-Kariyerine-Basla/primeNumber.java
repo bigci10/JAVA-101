@@ -1,17 +1,15 @@
-public class primeNumber {
-    // Complete the solve function below.
-
-    public static void main(String[] args){
-        int number = 1000000;
-        for (int i = 2; i <= number; i++){
-            if (i % 2 == 0){
-                System.out.println(i+"Is not a prime number");
+public class PrimeNumber {
+    public static void main(String[] args) {
+        
+        for(int i=2; i <= 100; i++) {
+            int tot = 0;
+            for(int x=1; x<=i; x++) {
+                if(i%x==0){
+                    tot ++;
+                }
             }
-            else{
-                System.out.println(i+"Prime Number");
-            }
-
+            if(tot <= 2)
+                System.out.println(i);
         }
-
     }
 }
