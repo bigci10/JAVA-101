@@ -5,28 +5,28 @@ public class BasicCalculator {
 
     static int add() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Toplamak istediğiniz sayı");
+        System.out.println("The number for sum");
         int input = scanner.nextInt();
         return result += input;
     }
 
     static int divide() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bölmek istediğiniz sayı");
+        System.out.println("The number for divide");
         int input = scanner.nextInt();
         return result /= input;
     }
 
     static int subtract() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Çıkartmak istediğiniz sayı");
+        System.out.println("The number for subtract");
         int input = scanner.nextInt();
         return result -= input;
     }
 
     static int multiply() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Çarpmak istediğiniz sayı");
+        System.out.println("The number for multiply");
         int input = scanner.nextInt();
         return result *= input;
     }
