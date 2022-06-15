@@ -35,34 +35,10 @@ public class Match {
                 this.winner = "The Winner is " + fighter1.getName();
                 break;
             }
-
-
-
-
-    }
-
-
-
-
+            
+        }
+        
         System.out.println(winner);
-
     }
-    //Title ne maçı  name
-    //fighter1
-    // fighter 2
-
-    //fighter1 points
-    //fighter2 points
-
-
-    //metotlar
-
-    //playMatch(fighter1 ve 2){
-
-//}
-
-    //stopmaç (maç durduruldu)
-
-    //total rounds(toplam round)
 
 }
